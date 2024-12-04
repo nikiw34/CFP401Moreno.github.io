@@ -67,16 +67,12 @@ const cursosPorSeccion = {
         "Manicuria": new Curso("3288","Av. Libertador 4603, las Catonas","Martes y Jueves, 13:00 a 16:30","manicura/o","Marzo 2025","3 meses") 
     }, 
     gastronomia: {  
-        "Elaboracion de alimento a base de soja": new Curso("3215", "Pringles 225 Moreno, Paso del Rey ", "Lunes y Martes, 17:00 - 21:00", "Elaboracion de alimento a base de productos de soja", "Marzo 2025", "6 meses"), 
-	    "Elaboradora/or de Conservas de Frutas y Hortalizas": new Curso("3217", "Pringles 225 Moreno, Paso del Rey ", "Lunes y Miercoles, 08:00 - 12:30", "Elaboradora/or de Conservas de Frutas y Hortalizas", "Marzo 2025", " 9 meses"),
-	    "Cocinero para comedor escolar": new Curso("3218", "Pringles 225 Moreno, Paso del Rey ", "Martes y Viernes, 13:00 - 17:00", "Cocinero para comedor escolar", "Marzo 2025", "2 meses"),
-	    "Cocinero para comedor escolar (2)": new Curso("3230", "Pringles 225 Moreno, Paso del Rey ", "Martes y Viernes, 13:00 - 17:00", "Cocinero para comedor escolar", "Mayo 2025", "3 meses"),
-	    "Panadero/a": new Curso("3245", "Dr. Enrique Finochietto 1998. Fco. Alvarez, (Iglesia Jesucristo de los Santos de Los Ultimos Dias)", "Martes y Jueves, 18:00 - 22:00", "Panadero/a", "Marzo 2025", "9 meses"),
-	    "Panadero/a (2)": new Curso("3252", "Magdalena y Felix de Azara, Moreno", "Lunes y Viernes, 18:00 - 21:00", "Panadero/a", "Marzo 2025", "9 meses"),
-	    "Elaborador de Quesos": new Curso("3278", "Dastugue 3591, Paso del Rey", "Lunes y Jueves, 17:00 - 21:30", "Elaborador de Quesos", "Marzo 2025", "2 meses"),
-	    "Mucama de Hotel": new Curso("3285", "Piovano 3087, Moreno", "Lunes y Miercoles, 13:00 - 16:30", "Mucama de Hotel", "Marzo 2025", "7 meses"),
-        "Elaboradora/or de Conservas de Frutas y Hortalizas": new Curso("3243", "Dr, Enrique Finochetto 1998 Fco. Alvarez ", "Martes y Jueves, 14:00 - 17:30", "Elaboradora/or de Conservas de Frutas y Hortalizas", "Marzo 2025", " 9 meses"),
-	},  
+	"Elaboradora/or de Conservas de Frutas y Hortalizas": new Curso("3217", "Pringles 225 Moreno, Paso del Rey ", "Lunes y Miercoles, 08:00 - 12:30", "Elaboradora/or de Conservas de Frutas y Hortalizas", "Marzo 2025", " 9 meses"),
+	"Panadero/a": new Curso("3245", "Dr. Enrique Finochietto 1998. Fco. Alvarez, (Iglesia Jesucristo de los Santos de Los Ultimos Dias)", "Martes y Jueves, 18:00 - 22:00", "Panadero/a", "Marzo 2025", "9 meses"),
+	"Panadero/a (2)": new Curso("3252", "Magdalena y Felix de Azara, Moreno", "Lunes y Viernes, 18:00 - 21:00", "Panadero/a", "Marzo 2025", "9 meses"),
+	"Elaborador de Quesos": new Curso("3278", "Dastugue 3591, Paso del Rey", "Lunes y Jueves, 17:00 - 21:30", "Elaborador de Quesos", "Marzo 2025", "2 meses"),
+	"Mucama de Hotel": new Curso("3285", "Piovano 3087, Moreno", "Lunes y Miercoles, 13:00 - 16:30", "Mucama de Hotel", "Marzo 2025", "7 meses"),
+	},   
     informatica: {  
         "Programación": new Curso("3219", "Av. Libertador 4603, las Catonas", "Lunes, Miércoles y Viernes, 18:00 - 22:00", "Programador/a", "Marzo 2025", "7 meses"),  
 	    "Operador Informatico": new Curso("3205", "Av. Libertador 4603, Las Catonas", "Lunes, Miércoles y Viernes, 09:00 - 12:30", "Operador/a de informatica para administracion y gestion", "Marzo 2025", "6 meses"),  
@@ -110,6 +106,10 @@ const cursosPorSeccion = {
         "Limpieza institucional #3": new Curso("3257","Gualeguaychu(entre Hipocrates y Tulisi)Barrio san carlos-Francisco Alvarez-Pensar Moreno(el molinito)","Lunes,Martes y Miercoles 13:15 - 16:45","limpieza institucional","24/03/2025 - 06/05/2025","2 meses"),
         "Limpieza institucional #4": new Curso("3258","Gualeguaychu(entre Hipocrates y Tulisi)Barrio san carlos-Francisco Alvarez-Pensar Moreno(el molinito)","Lunes,Martes y Miercoles 13:15 - 16:45","limpieza institucional","07/05/2025 - 23/06/2025","2 meses"),
         "Limpieza institucional #5": new Curso("3268","Mitre 1108 esquina Camilli, Moreno","Lunes y Miercoles 17:30 - 21:00","limpieza institucional","02/04/2025 - 09/06/2025","2 meses"),  
+	"Elaboracion de alimento a base de soja": new Curso("3215", "Pringles 225 Moreno, Paso del Rey ", "Lunes y Martes, 17:00 - 21:00", "Elaboracion de alimento a base de productos de soja", "Marzo 2025", "6 meses"), 
+	"Cocinero para comedor escolar (2)": new Curso("3230", "Pringles 225 Moreno, Paso del Rey ", "Martes y Viernes, 13:00 - 17:00", "Cocinero para comedor escolar", "Mayo 2025", "3 meses"),
+	"Elaboradora/or de Conservas de Frutas y Hortalizas": new Curso("3243", "Dr, Enrique Finochetto 1998 Fco. Alvarez ", "Martes y Jueves, 14:00 - 17:30", "Elaboradora/or de Conservas de Frutas y Hortalizas", "Marzo 2025", " 9 meses"),
+	"Cocinero para comedor escolar": new Curso("3218", "Pringles 225 Moreno, Paso del Rey ", "Martes y Viernes, 13:00 - 17:00", "Cocinero para comedor escolar", "Marzo 2025", "2 meses"),
     }, 
     textil: {  
         "Tejido en telar": new Curso("3262", "tabla 0927 entre Shakespere y Darwin. Barrio Satelite", "Lunes, Miércoles y vier 18:00 - 22:00", "Tejido en telar", "Marzo 2025", "3 meses"),  
