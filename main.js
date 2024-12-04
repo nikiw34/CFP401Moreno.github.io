@@ -62,7 +62,7 @@ class Curso {
 const cursosPorSeccion = {  
     estetica: {  
         "Peluqueria (TM)": new Curso("3310", "Av. Libertador 4603 - Las Catonas", "Martes, jueves y viernes, 8:30 a 12:00", "peluquero/a", "marzo 2025", "9 meses"),
-        "Peluqueria (TT)": new Curso("3287", "Av. Libertador 4603 - Las Catonas", "Martes, jueves, 13:00 a 16:30", "peluquero/a", "marzo 2025", "3 meses"),
+        "Peluqueria (TT)": new Curso("3287", "Av. Libertador 4603 - Las Catonas", "Lunes, Miercoles y Viernes 13:00 a 16:30", "peluquero/a", "marzo 2025", "3 meses"),
         "Peluqueria (TN)": new Curso("3311", "Av. Libertador 4603, las Catonas", "Lunes, Miercoles y viernes, 18:00 a 22:00", "Peluquero/a", "Marzo 2025", "7 meses"),
         "Manicuria": new Curso("3288","Av. Libertador 4603, las Catonas","Martes y Jueves, 13:00 a 16:30","manicura/o","Marzo 2025","3 meses") 
     }, 
