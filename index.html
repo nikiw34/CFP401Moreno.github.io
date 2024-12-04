@@ -1,0 +1,38 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Cursos</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <h1>Cursos 2025</h1>  
+    <form id="courseForm">  
+        <label for="seccion">Selecciona una sección:</label>  
+        <select id="seccion" onchange="populateCourses()">  
+            <option value="">--Seleccionar--</option>  
+            <option value="estetica">Estética</option>  
+            <option value="gastronomia">Gastronomía</option>  
+            <option value="informatica">Informática</option>  
+            <option value="agro">Agro</option> \
+            <option value="metalmecanica">metal-mecanica</option>
+            <option value="auxiliar">Auxiliar</option>  
+            <option value="textil">Textil</option> 
+            <option value="construccion">Construccion</option> 
+            <option value="social_administrativo">social-administrativo</option> 
+        </select>  
+
+        <label for="curso">Selecciona un curso:</label>  
+        <select id="curso" onchange="showCourseDetails()">  
+            <option value="">--Seleccionar--</option>  
+        </select>  
+
+        <input class="verdetalles"  type="submit" value="Ver Detalles" onclick="showCourseDetails(); return false;">  
+    </form>  
+
+    <div id="result" class="hidden"></div>  
+
+    <script src="main.js"></script>  
+</body>  
+</html>
