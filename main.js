@@ -66,8 +66,7 @@ const cursosPorSeccion = {
         "Peluqueria (TN)": new Curso("3311", "Av. Libertador 4603, las Catonas", "Lunes, Miercoles y viernes, 18:00 a 22:00", "Peluquero/a", "Marzo 2025", "7 meses"),
         "Manicuria": new Curso("3288","Av. Libertador 4603, las Catonas","Martes y Jueves, 13:00 a 16:30","manicura/o","Marzo 2025","3 meses") 
     }, 
-    gastronomia: {  
-	    "Elaboradora/or de Conservas de Frutas y Hortalizas": new Curso("3217", "Pringles 225 Moreno, Paso del Rey ", "Lunes y Miercoles, 08:00 - 12:30", "Elaboradora/or de Conservas de Frutas y Hortalizas", "Marzo 2025", " 9 meses"),    
+    gastronomia: {      
 	    "Panadero/a": new Curso("3245", "Dr. Enrique Finochietto 1998. Fco. Alvarez, (Iglesia Jesucristo de los Santos de Los Ultimos Dias)", "Martes y Jueves, 18:00 - 22:00", "Panadero/a", "Marzo 2025", "9 meses"),
 	    "Panadero/a (2)": new Curso("3252", "Magdalena y Felix de Azara, Moreno", "Lunes y Viernes, 18:00 - 21:00", "Panadero/a", "Marzo 2025", "9 meses"),
 	    "Elaborador de Quesos": new Curso("3278", "Dastugue 3591, Paso del Rey", "Lunes y Jueves, 17:00 - 21:30", "Elaborador de Quesos", "Marzo 2025", "2 meses"),
@@ -121,6 +120,7 @@ const cursosPorSeccion = {
         "Estampador multiple #1": new Curso("3306","Piovano 3087, Moreno","Lunes, Miercoles y Viernes 08:30 - 12:00","estampador multiple","mayo 2025","7 meses"),
         "Serigrafia #2": new Curso("3307", "Gral Manuel Belgrano(Entre obrien y fray beltran)", "Martes, Jueves y Viernes 13:30 - 17:00","practico en terigrafia", "Marzo 2025", "2 meses"),
         "Estampador multiple #2": new Curso("3308", "Gral Manuel Belgrano(Entre obrien y fray beltran)", "Martes, Jueves y Viernes 13:30 - 17:00", "estampador multiple", "Mayo 2025", "7 meses"),
+	"Elaboradora/or de Conservas de Frutas y Hortalizas": new Curso("3217", "Pringles 225 Moreno, Paso del Rey ", "Lunes y Miercoles, 08:00 - 12:30", "Elaboradora/or de Conservas de Frutas y Hortalizas", "Marzo 2025", " 9 meses"),	    
     }, 
     construccion: {  
         "Mantenimiento de Edificios #1": new Curso("3301", "Dr. Enrique Finochietto 1998. Fco Alvarez", "IGLESIA DE JESUCRISTO DE LOS SANTOS DE LOS ULTIMOS DIAS", "Lunes, Martes y Viernes, 18:00 - 22:00", "Mantenimiento de Edificios", "Marzo 2025", "4 Meses"),
